@@ -13,7 +13,7 @@ export default function TravelItem(props){
                     <a href="https://www.google.com" className="item-venue-link">View on Google Maps</a>
                 </p>
                 <h1 className="item-scenery-name">{props.item.scenery}</h1>
-                <p className="item-date">{props.item.date}</p>
+                <p className="item-date">{props.item.startDate} - {props.item.endDate}</p>
                 <p className="item-description">{props.item.description}</p>
             </div>
         </div>
